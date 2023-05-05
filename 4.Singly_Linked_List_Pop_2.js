@@ -62,6 +62,8 @@ class SinglyLinkedList {
 		// Decrement the length of the list by 1
 		// Return the value of the node removed
 		this.length--;
+
+		// Handle the case where there are no nodes to pop off
 		if (this.length === 0) {
 			this.head = null;
 			this.tail = null;
