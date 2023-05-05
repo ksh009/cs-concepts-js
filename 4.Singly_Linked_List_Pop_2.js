@@ -85,6 +85,11 @@ list.pop();
 console.log(list);
 list.pop();
 console.log(list);
+list.pop();
+console.log(list);
+console.log('Nothing to Pop as no nodes');
+list.pop();
+console.log(list);
 
 /* Output 
 SinglyLinkedList { head: null, tail: null, length: 0 }
