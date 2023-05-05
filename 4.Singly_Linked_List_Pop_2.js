@@ -71,9 +71,15 @@ class SinglyLinkedList {
 }
 
 var list = new SinglyLinkedList();
+console.log('Pushing');
 list.push('HELLO');
+console.log(list);
 list.push('GOODBYE');
+console.log(list);
 list.push('!');
+console.log(list);
+console.log('Popping');
+list.pop();
 console.log(list);
 list.pop();
 console.log(list);
